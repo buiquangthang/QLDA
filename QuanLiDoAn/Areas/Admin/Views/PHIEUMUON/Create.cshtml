@@ -1,0 +1,41 @@
+﻿@model Models.Framework.PHIEUMUON
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    @Html.HiddenFor(model => model.MaNhanVien)
+    <fieldset>
+        <legend>Thêm mới Phiếu Mượn</legend>
+
+        <div class="editor-label">
+            <label>Mã Độc giả</label>
+        </div>
+        <div class="form-group">
+            @Html.EditorFor(model => model.MaDocGia)
+            @Html.ValidationMessageFor(model => model.MaDocGia)
+        </div>
+
+        <div class="editor-label">
+            <label>Mã Đồ Án</label>
+        </div>
+        <div class="form-group">
+            @Html.EditorFor(model => model.MaDoAn)
+            @Html.ValidationMessageFor(model => model.MaDoAn)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

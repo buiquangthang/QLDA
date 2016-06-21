@@ -1,0 +1,24 @@
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\bin\Debug\Models.dll.config
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\bin\Debug\Models.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\bin\Debug\Models.pdb
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\bin\Debug\EntityFramework.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\bin\Debug\EntityFramework.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\obj\Debug\Models.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\Models\obj\Debug\Models.pdb
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\Models.dll.config
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\Models.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\Models.pdb
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\EntityFramework.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\EntityFramework.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\obj\Debug\Models.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\obj\Debug\Models.pdb
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\PagedList.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\PagedList.Mvc.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\PagedList.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\Models\bin\Debug\PagedList.Mvc.xml

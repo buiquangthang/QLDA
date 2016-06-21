@@ -1,0 +1,48 @@
+﻿@model Models.Framework.NHANVIEN
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<br/>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Thêm mới Nhân viên</legend>
+
+        <label>Họ Tên</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.HoTen)
+            @Html.ValidationMessageFor(model => model.HoTen)
+        </div>
+
+        <label>Địa Chỉ</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.DiaChi)
+            @Html.ValidationMessageFor(model => model.DiaChi)
+        </div>
+
+        <label>Tên Đăng Nhập</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.TenDangNhap)
+            @Html.ValidationMessageFor(model => model.TenDangNhap)
+        </div>
+
+        <label>Quyền hạn</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.QuyenHan)
+            @Html.ValidationMessageFor(model => model.QuyenHan)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to Profile", "Index")
+</div>

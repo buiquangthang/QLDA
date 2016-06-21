@@ -1,0 +1,63 @@
+﻿@model Models.Framework.DOAN
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model=>model.MaDoAn)
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>DOAN</legend>
+
+        <label>Tên Đồ án</label>
+        <div class="form-group">
+            @Html.TextAreaFor(model => model.TenDoAn)
+            @Html.ValidationMessageFor(model => model.TenDoAn)
+        </div>
+
+        <label>Số Trang</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.SoTrang)
+            @Html.ValidationMessageFor(model => model.SoTrang)
+        </div>
+
+        <label>Ngày Bảo Vệ</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.NgayBaoVe)
+            @Html.ValidationMessageFor(model => model.NgayBaoVe)
+        </div>
+
+        <label>Mã Loại</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.MaLoai)
+            @Html.ValidationMessageFor(model => model.MaLoai)
+        </div>
+
+        <label>Sinh Viên Thực Hiện</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.SinhVienTH)
+            @Html.ValidationMessageFor(model => model.SinhVienTH)
+        </div>
+
+        <label>Giảng Viên Hướng Dẫn</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.GiangVienHD)
+            @Html.ValidationMessageFor(model => model.GiangVienHD)
+        </div>
+
+        <p>
+            <input type="submit" value="Edit" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

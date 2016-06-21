@@ -1,0 +1,49 @@
+﻿@model Models.Framework.NHANVIEN
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<br />
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Chỉnh sửa thông tin cá nhân</legend>
+
+        @Html.HiddenFor(model => model.MaNhanVien)
+
+        <label>Họ tên</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.HoTen)
+            @Html.ValidationMessageFor(model => model.HoTen)
+        </div>
+
+        <label>Địa Chỉ</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.DiaChi)
+            @Html.ValidationMessageFor(model => model.DiaChi)
+        </div>
+
+        <label>Tên Đăng nhập</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.TenDangNhap)
+            @Html.ValidationMessageFor(model => model.TenDangNhap)
+        </div>
+
+        <label>Xác nhận mật khẩu</label>
+        <div class="form-group">
+            @Html.PasswordFor(model => model.MatKhau)
+            @Html.ValidationMessageFor(model => model.MatKhau)
+        </div>
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to Detail", "Index")
+</div>
+

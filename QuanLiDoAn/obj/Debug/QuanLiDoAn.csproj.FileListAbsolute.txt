@@ -1,0 +1,72 @@
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\QuanLiDoAn.dll.config
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\QuanLiDoAn.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\QuanLiDoAn.pdb
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\Microsoft.Web.Infrastructure.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\Newtonsoft.Json.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Net.Http.Formatting.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Helpers.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Http.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Http.WebHost.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Mvc.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Razor.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.Deployment.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.Razor.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\Newtonsoft.Json.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Net.Http.Formatting.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Helpers.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Http.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Http.WebHost.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Mvc.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Razor.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.Deployment.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.Razor.xml
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\obj\Debug\QuanLiDoAn.csprojResolveAssemblyReference.cache
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\obj\Debug\QuanLiDoAn.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\obj\Debug\QuanLiDoAn.pdb
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\Models.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\EntityFramework.dll
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\Models.pdb
+c:\users\co\documents\visual studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\EntityFramework.xml
+c:\Users\CO\Documents\Visual Studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\EntityFramework.SqlServer.dll
+c:\Users\CO\Documents\Visual Studio 2013\Projects\QuanLiDoAn\QuanLiDoAn\bin\EntityFramework.SqlServer.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\QuanLiDoAn.dll.config
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\QuanLiDoAn.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\QuanLiDoAn.pdb
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\EntityFramework.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\EntityFramework.SqlServer.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\Models.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\Newtonsoft.Json.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Net.Http.Formatting.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Helpers.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Http.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Http.WebHost.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Mvc.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Razor.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.Razor.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\Models.pdb
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\EntityFramework.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\EntityFramework.SqlServer.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\Newtonsoft.Json.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Net.Http.Formatting.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Helpers.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Http.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Http.WebHost.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Mvc.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.Razor.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\System.Web.WebPages.Razor.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\obj\Debug\QuanLiDoAn.csprojResolveAssemblyReference.cache
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\obj\Debug\QuanLiDoAn.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\obj\Debug\QuanLiDoAn.pdb
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\PagedList.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\PagedList.Mvc.dll
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\PagedList.xml
+C:\Users\CO\OneDrive\ProjectC#\QuanLiDoAn\QuanLiDoAn\bin\PagedList.Mvc.xml

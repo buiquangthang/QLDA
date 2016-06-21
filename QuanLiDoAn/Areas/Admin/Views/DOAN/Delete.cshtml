@@ -1,0 +1,71 @@
+﻿@model Models.Framework.DOAN
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+
+<fieldset>
+    <legend>DOAN</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TenDoAn)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TenDoAn)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SoTrang)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SoTrang)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.NgayBaoVe)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.NgayBaoVe)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MaLoai)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MaLoai)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.SinhVienTH)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SinhVienTH)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.GiangVienHD)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.GiangVienHD)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TrangThai)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TrangThai)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model=>model.MaDoAn)
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

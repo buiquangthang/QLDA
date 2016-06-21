@@ -1,0 +1,71 @@
+﻿@model Models.Framework.DOCGIA
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>DOCGIA</legend>
+
+        <label>Mã số SV</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.MaDocGia)
+            @Html.ValidationMessageFor(model => model.MaDocGia)
+        </div>
+
+        <label>Họ Tên SV</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.HoTen)
+            @Html.ValidationMessageFor(model => model.HoTen)
+        </div>
+
+        <label>Ngày sinh</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.NgaySinh) (MM/dd/yyyy)
+            @Html.ValidationMessageFor(model => model.NgaySinh)
+        </div>
+        
+        <label>Mã Khoa</label>
+        <div class="form-group">
+            @Html.DropDownListFor(model => model.MaKhoa, new List<SelectListItem>()
+       {
+           new SelectListItem(){Selected = true,Text ="Công nghệ thông tin",Value = "109"},
+           new SelectListItem(){Selected = false,Text ="Điện tử viễn thông",Value = "110"}
+       })
+            @Html.ValidationMessageFor(model => model.MaKhoa)
+        </div>
+
+       <label>Chức Vụ</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.ChucVu)
+            @Html.ValidationMessageFor(model => model.ChucVu)
+        </div>
+
+        <label>Địa chỉ</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.DiaChi)
+            @Html.ValidationMessageFor(model => model.DiaChi)
+        </div>
+
+        <label>Mật khẩu</label>
+        <div class="form-group">
+            @Html.EditorFor(model => model.MatKhau)
+            @Html.ValidationMessageFor(model => model.MatKhau)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

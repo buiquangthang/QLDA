@@ -1,0 +1,38 @@
+﻿@model QuanLiDoAn.Areas.Admin.Models.ChangePassModel
+
+@{
+    ViewBag.Title = "ChangePass";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Thay đổi mật khẩu</legend>
+
+        <label>Mật khẩu cũ</label>
+        <div class="form-group">
+            @Html.PasswordFor(model => model.passOld)
+            @Html.ValidationMessageFor(model => model.passOld)
+        </div>
+
+        <label>Mật Khẩu mới</label>
+        <div class="form-group">
+            @Html.PasswordFor(model => model.passNew)
+            @Html.ValidationMessageFor(model => model.passNew)
+        </div>
+
+        <label>Nhập lại mật khẩu mới</label>
+        <div class="form-group">
+            @Html.PasswordFor(model => model.reType)
+            @Html.ValidationMessageFor(model => model.reType)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
